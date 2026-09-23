@@ -1,5 +1,7 @@
 # PyInstaller 批量打包工具集
 
+> 仓库：<https://gitee.com/siwpan/pyinstaller> ｜ 许可：MIT（见 [LICENSE](LICENSE)）
+
 多功能 PyInstaller 批量打包工具箱，从基础到专业级打包。
 
 ## 功能
