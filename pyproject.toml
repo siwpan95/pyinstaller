@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyinstaller-tool"
+version = "1.0.0"
+description = "PyInstaller 批量打包工具集（基础/专业/全自动 GUI + 批处理）"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "siwpan" }]
+keywords = ["pyinstaller", "packaging", "exe", "gui", "build"]
+dependencies = ["pyinstaller", "Pillow"]
+
+[project.urls]
+Homepage = "https://gitee.com/siwpan/pyinstaller"
+Repository = "https://gitee.com/siwpan/pyinstaller"
+Changelog = "https://gitee.com/siwpan/pyinstaller/blob/master/CHANGELOG.md"
+
+[tool.setuptools]
+py-modules = ["all", "afo", "packer_pro"]

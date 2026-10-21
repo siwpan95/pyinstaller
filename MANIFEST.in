@@ -1,0 +1,14 @@
+prune .venv
+prune dist
+prune build
+prune release
+prune __pycache__
+prune logs
+prune afo
+prune dist_pro
+global-exclude *.pyc
+global-exclude *.exe
+global-exclude *.ico
+global-exclude *.bat
+global-exclude *.spec
+global-exclude *.wav
